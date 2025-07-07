@@ -1,0 +1,7 @@
+# Ignore everything in bin/ and obj/
+calculator/bin/*
+calculator/obj/*
+
+# Except the folders them selves
+!calculator/bin/.gitkeep
+!calculator/obj/.gitkeep
