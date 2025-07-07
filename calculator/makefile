@@ -31,5 +31,6 @@ $(OBJ_DIR)/%.o: $(SRC_DIR)/%.c
 
 # Clean up build artifacts
 clean:
-	rm -rf $(OBJ_DIR) $(BIN_DIR)
+	rm -f $(OBJ_DIR)/*.o 
+	rm -f $(BIN_DIR)/calculator
 
