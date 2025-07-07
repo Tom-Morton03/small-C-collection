@@ -24,18 +24,6 @@ A simple command-line calculator that:
 - Recursive postfix evaluation
 - Built from scratch without external libraries
 
-#### 📂 Folder Structure
-src/ # Source code (.c/.h files)
-obj/ # Compiled object files (not tracked in Git)
-bin/ # Compiled binaries (not tracked in Git)
-
-#### 🛠️ Build Instructions
-```bash
-make            # Build the project
-./bin/calc      # Run the calculator
-make clean      # Clean compiled files
-```
-
 ## 🛤️ What's Next?
 - This repo may grow to include:
 - 📝 A to-do list manager
